@@ -17,7 +17,7 @@
 
 var move="off";
 
-    $('body').on('click',
+    $('a').on('click',
 
         function() {
             count = 0;
