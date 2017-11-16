@@ -1,20 +1,34 @@
-#array{
-    /*position: fixed;*/
-
-    /*display:none;*/
-    bottom:18%;
-    font-size:5em;
-    background-color: #7ac2ff;
-    word-wrap: break-word;
+#click_space{
+    background-color: #d4fff8;
+    margin : 0 auto;
+    align-content: center;
+    border: dashed;
+    width:100%;
+    height: 50%;
 
 }
-
 #a{
-    position: fixed;
     z-index: 1000;
+    align-content: center;
+
+    /*position: fixed;*/
     width:100%;
-    font-size:23em;
+    height:50%;
+    font-size:20em;
     font-family: 'Permanent Marker', cursive;
+    border : #5470ad;
+}
+#array,#br{
+    position: fixed;
+
+    /*display:none;*/
+    bottom:20%;
+    font-size:1.9em;
+    background-color: #7ac2ff;
+    width:80%;
+    align-content: center;
+    /*word-wrap: break-word;*/
+
 }
 #fix{
     position: fixed;

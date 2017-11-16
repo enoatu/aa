@@ -17,7 +17,7 @@
 
 var move="off";
 
-    $('a').on('click',
+    $('#click_space').on('click',
 
         function() {
             count = 0;

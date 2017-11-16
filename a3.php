@@ -14,21 +14,21 @@
             if (countbr===5)
                 document.getElementById("array").innerHTML+="<br>";
         }
-        function fix() {
-            document.getElementById("br").innerHTML+=" ";
-        }
+
     </script>
 </head>
-<body onclick=countBR(); >
+<body>
 <!--<p id="11" class="first">Event Team</p>-->
 
-
+<div id="click_space">
 <!--ここに今数字が表示されるねん-->
-<div align="center" id="a"></div>
+<div align="center" id="a" onclick=countBR(); ></div>
 <!--このボタン押すと、新しく数字でて、数字の履歴がでるぞ！-->
 <a id ="b" class="b"></a>
+</div>
 <!--ここに数字の履歴表示されるぞ！-->
-<p id="br"></p><p id="array"></p>
+    <p id="br"><span id="array"></span></p>
+
 
 <!--次の人と交代する時に使うボタン-->
 <form action="a3.php" method="post">
@@ -44,3 +44,8 @@
 </html>
 
 <script src="js3.js"></script>
+<script>
+    function fix() {
+        document.getElementById("br").innerHTML="     "+document.getElementById("br").innerHTML;
+    }
+</script>
