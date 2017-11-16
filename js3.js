@@ -20,6 +20,8 @@ var move="off";
     $('#click_space').on('click',
 
         function() {
+
+            $("#a").css("font-size","350px");
             count = 0;
             count2 = 0;
             count3 = 0;
@@ -44,7 +46,7 @@ function set1(){
                 count = 0;
                 clearInterval(set1);
             }
-        }, 50);}
+        }, 50);}//2500
 
 function set2(){
     var set2 = setInterval(
@@ -54,9 +56,11 @@ function set2(){
         if (count2 === 30) {
             count2 = 0;
             clearInterval(set2);
+
+                $("#a").css("font-size","400px");
             rr();saveArray();
         }
-    }, 150);}
+    }, 150);}//4500
 
 function set3(){
     var set3 = setInterval(

@@ -27,7 +27,7 @@
 <a id ="b" class="b"></a>
 </div>
 <!--ここに数字の履歴表示されるぞ！-->
-    <p id="br"><span id="array"></span></p>
+<p id = "br_wrap"><span id="br" ></span><span id="array"></span></p>
 
 
 <!--次の人と交代する時に使うボタン-->
@@ -46,6 +46,6 @@
 <script src="js3.js"></script>
 <script>
     function fix() {
-        document.getElementById("br").innerHTML="     "+document.getElementById("br").innerHTML;
+        document.getElementById("br").innerHTML="\u00a0"+document.getElementById("br").innerHTML;
     }
 </script>
