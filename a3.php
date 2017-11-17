@@ -43,7 +43,7 @@
 </body>
 </html>
 
-<script src="js3.js"></script>
+<script src="enomoto.js"></script>
 <script>
     function fix() {
         document.getElementById("br").innerHTML="\u00a0"+document.getElementById("br").innerHTML;
